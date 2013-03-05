@@ -2,10 +2,10 @@
 #
 # Examples
 #
-#   include caffeine
+#   include skype
 class skype {
   package { 'Skype':
-    provider => 'appdmg',
+    provider => 'pkgdmg',
     source   => 'http://www.skype.com/go/getskype-macosx.dmg',
   }
 }
