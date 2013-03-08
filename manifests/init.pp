@@ -5,7 +5,7 @@
 #   include skype
 class skype {
   package { 'Skype':
-    provider => 'pkgdmg',
+    provider => 'appdmg',
     source   => 'http://www.skype.com/go/getskype-macosx.dmg',
   }
 }
