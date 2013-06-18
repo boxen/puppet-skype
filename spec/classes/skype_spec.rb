@@ -4,7 +4,7 @@ describe 'skype' do
   it do
     should contain_package('Skype').with({
       :provider => 'appdmg',
-      :source   => 'http://download.skype.com/macosx/Skype_6.3.59.582.dmg',
+      :source   => 'http://download.skype.com/macosx/Skype_6.5.0.443.dmg',
     })
   end
 end
