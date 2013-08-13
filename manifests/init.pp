@@ -6,6 +6,6 @@
 class skype {
   package { 'Skype':
     provider => 'appdmg',
-    source   => 'http://download.skype.com/macosx/Skype_6.5.0.443.dmg',
+    source   => 'http://download.skype.com/macosx/Skype_6.7.60.373.dmg',
   }
 }
