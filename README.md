@@ -1,27 +1,7 @@
-**This Boxen module is now deprecated. The advised method for installing applications with Boxen is to now use [homebrew-cask](http://caskroom.io/). Add the following to your manifest to install Skype using brewcask:**
-
-```puppet
-package { 'skype': provider => 'brewcask' }
-```
-
----
-
 # Skype Puppet Module for Boxen
 
-[![Build Status](https://travis-ci.org/boxen/puppet-skype.png?branch=master)](https://travis-ci.org/boxen/puppet-skype)
+Deprecated in favour of [brewcask][1] and [Boxen's in built support for
+homebrew/brewcask][2].
 
-## Usage
-
-```puppet
-include skype
-```
-
-## Required Puppet Modules
-
-None.
-
-## Developing
-
-Write code.
-
-Run `script/cibuild`.
+[1]: https://caskroom.github.io/
+[2]: https://github.com/boxen/puppet-boxen/blob/master/manifests/personal.pp#L14-L17
